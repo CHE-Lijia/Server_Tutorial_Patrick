@@ -20,6 +20,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | blast | Sequence Alignment | 2.12.0+ | - | [`env_phage`](#env-mapping) |
 | bowtie2 | Read Alignment | 2.5.4 | - | [`env_metawrap`](#env-mapping) |
 | bwa | Read Alignment | 0.7.18 | - | [`env_metawrap`](#env-mapping) |
+| cd-hit | Remove Repeated Genome | 4.6.1 | - | [`env_qc`](#env-mapping) |
 | checkm | Quality Assessment | 1.0.18 | YES | [`env_metawrap`](#env-mapping) |
 | checkM2 | Quality Assessment | 1.1.0 | YES | [`env_checkm2`](#env-mapping) |
 | checkv | Viral Quality | 1.0.3 | - | [`env_phage`](#env-mapping) |
