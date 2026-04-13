@@ -75,6 +75,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | prokka | Genome Annotation | 1.15.6 | - | [`env_ann`](#env-mapping) |
 | pyani | ANI Calculation | 0.3.0 | - | [`env_evo`](#env-mapping) |
 | QUAST | Assembly Assessment | 5.3.0 | - | [`env_ann`](#env-mapping) |
+| RNAfold | RNA Structure Prediction | 2.7.0 | - | [`env_ann`](#env-mapping) |
 | samtools | File Manipulation | 1.18 | - | [`env_metawrap`](#env-mapping) |
 | samtools | File Manipulation | 1.23 | - | [`env_qc`](#env-mapping) |
 | samtools | File Manipulation | 1.23.1 | - | [`env_var`](#env-mapping) |
@@ -137,3 +138,5 @@ export IPHOP_DB="/hdd1/shared_db/chelijia/iphop_db"
 export KRAKEN2_DB="/hdd1/shared_db/chelijia/kraken2_db"
 export MOB_SUITE_DB="/hdd1/shared_db/chelijia/mob_suite_db"
 export VIRSORTER_DB="/hdd1/shared_db/chelijia/virsorter_db"
+export PLASMIDFINDER_DB="/hdd1/shared_db/chelijia/plasmidfinder_db"
+
