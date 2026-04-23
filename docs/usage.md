@@ -39,7 +39,8 @@ To manage large bioinformatics databases efficiently, we should use database on 
 | `$EGGNOG_DB` | `/hdd1/shared_db/chelijia/eggnog_db` |
 | `$GTDBTK_DB` | `/hdd1/shared_db/chelijia/gtdbtd_db` |
 | `$IPHOP_DB` | `/hdd1/shared_db/chelijia/iphop_db` |
-| `$KRAKEN2_DB` | `/hdd1/shared_db/chelijia/kraken2_db` |
+| `$KRAKEN2_DB` | `/hdd1/shared_db/sylvia/kraken2_PlusPFP_DB` |
+| `$METAPHLAN4_DB` | `/hdd1/shared_db/sylvia/metaphlan4_DB` |
 | `$MOB_SUITE_DB` | `/hdd1/shared_db/chelijia/mob_suite_db` |
 | `$VIRSORTER_DB` | `/hdd1/shared_db/chelijia/virsorter_db` |
 
