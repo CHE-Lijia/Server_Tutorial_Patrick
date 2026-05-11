@@ -19,6 +19,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | blast | Sequence Alignment | 2.16.0 | - | [`env_ann`](#env-mapping) |
 | blast | Sequence Alignment | 2.12.0+ | - | [`env_phage`](#env-mapping) |
 | bowtie2 | Read Alignment | 2.5.4 | - | [`env_metawrap`](#env-mapping) |
+| bracken | Taxonomic Classification | 3.0.1 | - | [`env_taxa`](#env-mapping) |
 | bwa | Read Alignment | 0.7.18 | - | [`env_metawrap`](#env-mapping) |
 | cd-hit | Remove Repeated Genome | 4.6.1 | - | [`env_qc`](#env-mapping) |
 | checkm | Quality Assessment | 1.0.18 | YES | [`env_metawrap`](#env-mapping) |
@@ -27,7 +28,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | chopper | Read Filtering | 0.11.0 | - | [`env_qc`](#env-mapping) |
 | clair3 | Variant Calling | 2.0.0 | - | [`env_var`](#env-mapping) |
 | diamond | Sequence Alignment | 2.0.15 | - | [`env_ann`](#env-mapping) |
-| Dorado | Basecalling | 1.4.0 | - | [`act_dorado`](#env-mapping) |
+| Dorado | Basecalling | 1.4.0 | - | NA |
 | dRep | Genome Dereplication | 3.4.5 | - | [`env_ann`](#env-mapping) |
 | EggNOG-mapper | Functional Annotation | 2.1.13 | YES | [`env_ann`](#env-mapping) |
 | fastANI | ANI Calculation | 1.34 | - | [`env_evo`](#env-mapping) |
@@ -106,6 +107,7 @@ This table details the actual paths and owners for each environment alias.
 | `env_plasmid1` | `/hdd1/shared_envs/chelijia/env_plasmid1` | 3.10.20 | @chelijia |
 | `env_qc` | `/hdd1/shared_envs/chelijia/env_qc` | 3.10.21 | @chelijia |
 | `env_var` | `/hdd1/shared_envs/chelijia/env_variation` | 3.11.15 | @chelijia |
+| `env_taxa` | `/hdd1/shared_envs/lingyu/env_taxonomy` | 3.9.23 | @lyhe |
 ---
 
 ## 3. Shell Configuration (Recommended)
@@ -126,6 +128,7 @@ alias act_phage='conda activate /hdd1/shared_envs/chelijia/env_phage'
 alias act_plasmid1='conda activate /hdd1/shared_envs/chelijia/env_plasmid1'
 alias act_qc='conda activate /hdd1/shared_envs/chelijia/env_qc'
 alias act_var='conda activate /hdd1/shared_envs/chelijia/env_variation'
+alias act_taxa='conda activate /hdd1/shared_envs/lingyu/env_taxonomy'
 
 # 2. Database Path Variables
 export ANTISMASH_DB="/hdd1/shared_db/chelijia/antismash_db"
