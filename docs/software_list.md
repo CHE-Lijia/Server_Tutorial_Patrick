@@ -29,6 +29,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | clair3 | Variant Calling | 2.0.0 | - | [`env_var`](#env-mapping) |
 | diamond | Sequence Alignment | 2.0.15 | - | [`env_ann`](#env-mapping) |
 | Dorado | Basecalling | 1.4.0 | - | NA |
+| DESeq2 | Differential Expression | 1.42.0 | - | [`env_deseq2`](#env-mapping) |
 | dRep | Genome Dereplication | 3.4.5 | - | [`env_ann`](#env-mapping) |
 | EggNOG-mapper | Functional Annotation | 2.1.13 | YES | [`env_ann`](#env-mapping) |
 | fastANI | ANI Calculation | 1.34 | - | [`env_evo`](#env-mapping) |
@@ -76,6 +77,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | prokka | Genome Annotation | 1.15.6 | - | [`env_ann`](#env-mapping) |
 | pyani | ANI Calculation | 0.3.0 | - | [`env_evo`](#env-mapping) |
 | QUAST | Assembly Assessment | 5.3.0 | - | [`env_ann`](#env-mapping) |
+| racon | Sequence Correction | 1.5.0 | - | [`env_asm`](#env-mapping) |
 | RNAfold | RNA Structure Prediction | 2.7.0 | - | [`env_ann`](#env-mapping) |
 | samtools | File Manipulation | 1.18 | - | [`env_metawrap`](#env-mapping) |
 | samtools | File Manipulation | 1.23 | - | [`env_qc`](#env-mapping) |
@@ -108,6 +110,8 @@ This table details the actual paths and owners for each environment alias.
 | `env_qc` | `/hdd1/shared_envs/chelijia/env_qc` | 3.10.21 | @chelijia |
 | `env_var` | `/hdd1/shared_envs/chelijia/env_variation` | 3.11.15 | @chelijia |
 | `env_taxa` | `/hdd1/shared_envs/lingyu/env_taxonomy` | 3.9.23 | @lyhe |
+| `env_deseq2` | `/hdd1/shared_envs/lingyu/env_DESeq2` | 3.9.19 | @lyhe |
+
 ---
 
 ## 3. Shell Configuration (Recommended)
@@ -129,6 +133,7 @@ alias act_plasmid1='conda activate /hdd1/shared_envs/chelijia/env_plasmid1'
 alias act_qc='conda activate /hdd1/shared_envs/chelijia/env_qc'
 alias act_var='conda activate /hdd1/shared_envs/chelijia/env_variation'
 alias act_taxa='conda activate /hdd1/shared_envs/lingyu/env_taxonomy'
+alias act_deseq2='conda activate /hdd1/shared_envs/lingyu/env_DESeq2'
 
 # 2. Database Path Variables
 export ANTISMASH_DB="/hdd1/shared_db/chelijia/antismash_db"
