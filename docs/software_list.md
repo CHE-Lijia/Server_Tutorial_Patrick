@@ -27,6 +27,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | checkv | Viral Quality | 1.0.3 | - | [`env_phage`](#env-mapping) |
 | chopper | Read Filtering | 0.11.0 | - | [`env_qc`](#env-mapping) |
 | clair3 | Variant Calling | 2.0.0 | - | [`env_var`](#env-mapping) |
+| CONCOCT | Genome Binning | 1.1.0 | - | [`env_binning`](#env_binning) |
 | diamond | Sequence Alignment | 2.0.15 | - | [`env_ann`](#env-mapping) |
 | Dorado | Basecalling | 1.4.0 | - | NA |
 | DESeq2 | Differential Expression | 1.42.0 | - | [`env_deseq2`](#env-mapping) |
@@ -52,6 +53,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | MASH | Distance Estimation | 2.3 | - | [`env_phage`](#env-mapping) |
 | MASH | Distance Estimation | 2.3 | - | [`env_plasmid1`](#env-mapping) |
 | MAUVE | Genome Alignment | 2018 | - | [`env_plasmid1`](#env-mapping) |
+| MaxBin2 | Genome Binning | 2.2.7 | - | [`env_binning`](#env_binning) |
 | Medaka | Sequence Correction | 2.2.0 | - | [`env_asm`](#env-mapping) |
 | metabat2 | Genome Binning | 2.15 | - | [`env_metawrap`](#env-mapping) |
 | metaquast | Assembly Assessment | 5.3.0 | - | [`env_ann`](#env-mapping) |
@@ -111,6 +113,7 @@ This table details the actual paths and owners for each environment alias.
 | `env_var` | `/hdd1/shared_envs/chelijia/env_variation` | 3.11.15 | @chelijia |
 | `env_taxa` | `/hdd1/shared_envs/lingyu/env_taxonomy` | 3.9.23 | @lyhe |
 | `env_deseq2` | `/hdd1/shared_envs/lingyu/env_DESeq2` | 3.9.19 | @lyhe |
+| `env_binning` | `/hdd1/shared_envs/lingyu/env_binning` | 3.12.14 | @lyhe |
 
 ---
 
@@ -134,6 +137,7 @@ alias act_qc='conda activate /hdd1/shared_envs/chelijia/env_qc'
 alias act_var='conda activate /hdd1/shared_envs/chelijia/env_variation'
 alias act_taxa='conda activate /hdd1/shared_envs/lingyu/env_taxonomy'
 alias act_deseq2='conda activate /hdd1/shared_envs/lingyu/env_DESeq2'
+alias act_binning='conda activate /hdd1/shared_envs/lingyu/env_binning'
 
 # 2. Database Path Variables
 export ANTISMASH_DB="/hdd1/shared_db/chelijia/antismash_db"
