@@ -85,6 +85,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | samtools | File Manipulation | 1.23 | - | [`env_qc`](#env-mapping) |
 | samtools | File Manipulation | 1.23.1 | - | [`env_var`](#env-mapping) |
 | semibin2 | Genome Binning | 2.2.1 | - | [`env_ann`](#env-mapping) |
+| semibin2 | Genome Binning | 2.5.0 | - | [`env_binning`](#env_binning) |
 | sniffles | Variant Calling | 2.7.3 | - | [`env_var`](#env-mapping) |
 | snippy | Variant Calling | 3.1 | - | [`env_evo`](#env-mapping) |
 | spades | Genome Assembly | 4.2.0 | - | [`env_asm`](#env-mapping) |
