@@ -16,6 +16,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | beast | Evolutionary Analysis | 2.6.3 | - | [`env_evo`](#env-mapping) |
 | bedtools | Interval Tools | 2.31.1 | - | [`env_ann`](#env-mapping) |
 | bedtools | Interval Tools | 2.31.1 | - | [`env_var`](#env-mapping) |
+| binette | bin refinement | 1.2.1 | - | [`env_MAG`](#env-MAG) |
 | blast | Sequence Alignment | 2.16.0 | - | [`env_ann`](#env-mapping) |
 | blast | Sequence Alignment | 2.12.0+ | - | [`env_phage`](#env-mapping) |
 | bowtie2 | Read Alignment | 2.5.4 | - | [`env_metawrap`](#env-mapping) |
@@ -115,6 +116,7 @@ This table details the actual paths and owners for each environment alias.
 | `env_taxa` | `/hdd1/shared_envs/lingyu/env_taxonomy` | 3.9.23 | @lyhe |
 | `env_deseq2` | `/hdd1/shared_envs/lingyu/env_DESeq2` | 3.9.19 | @lyhe |
 | `env_binning` | `/hdd1/shared_envs/lingyu/env_binning` | 3.12.14 | @lyhe |
+| `env_MAG` | `/hdd1/shared_envs/lingyu/env_MAG` | 3.12.14 | @lyhe |
 
 ---
 
@@ -139,6 +141,7 @@ alias act_var='conda activate /hdd1/shared_envs/chelijia/env_variation'
 alias act_taxa='conda activate /hdd1/shared_envs/lingyu/env_taxonomy'
 alias act_deseq2='conda activate /hdd1/shared_envs/lingyu/env_DESeq2'
 alias act_binning='conda activate /hdd1/shared_envs/lingyu/env_binning'
+alias act_MAG='conda activate /hdd1/shared_envs/lingyu/env_MAG'
 
 # 2. Database Path Variables
 export ANTISMASH_DB="/hdd1/shared_db/chelijia/antismash_db"
