@@ -9,18 +9,20 @@ Due to the dependency of software and compatibility, some softwares are installe
 | Software | Purpose | Version | DB | Env Alias |
 | :--- | :--- | :--- | :--- | :--- |
 | abricate | Resistance Screening | 1.2.0 | - | [`env_ann`](#env-mapping) |
+| ALDEx2 | Differential Abundance Analysis | 1.34.0 | - | [`act_deseq2`](#env_DESeq2) |
 | antismash | Secondary Metabolites | 7.1.0 | YES | [`env_ann`](#env-mapping) |
+| ANCOM-BC | Differential Abundance Analysis | 2.4.0 | YES | [`act_deseq2`](#env_DESeq2) |
 | bacphlip | Phage Prediction | ? | - | [`env_bacphlip`](#env-mapping) |
 | bakta | Genome Annotation | 1.8.2 | YES | [`env_ann`](#env-mapping) |
 | bcftools | Variant Calling | 1.23.2 | - | [`env_var`](#env-mapping) |
 | beast | Evolutionary Analysis | 2.6.3 | - | [`env_evo`](#env-mapping) |
 | bedtools | Interval Tools | 2.31.1 | - | [`env_ann`](#env-mapping) |
 | bedtools | Interval Tools | 2.31.1 | - | [`env_var`](#env-mapping) |
-| binette | bin refinement | 1.2.1 | - | [`env_MAG`](#env-MAG) |
+| binette | bin refinement | 1.2.1 | - | [`act_MAG`](#env-MAG) |
 | blast | Sequence Alignment | 2.16.0 | - | [`env_ann`](#env-mapping) |
 | blast | Sequence Alignment | 2.12.0+ | - | [`env_phage`](#env-mapping) |
 | bowtie2 | Read Alignment | 2.5.4 | - | [`env_metawrap`](#env-mapping) |
-| bracken | Taxonomic Classification | 3.0.1 | - | [`env_taxa`](#env-mapping) |
+| bracken | Taxonomic Classification | 3.0.1 | - | [`act_taxa`](#env-mapping) |
 | bwa | Read Alignment | 0.7.18 | - | [`env_metawrap`](#env-mapping) |
 | cd-hit | Remove Repeated Genome | 4.6.1 | - | [`env_qc`](#env-mapping) |
 | checkm | Quality Assessment | 1.0.18 | YES | [`env_metawrap`](#env-mapping) |
@@ -28,10 +30,10 @@ Due to the dependency of software and compatibility, some softwares are installe
 | checkv | Viral Quality | 1.0.3 | - | [`env_phage`](#env-mapping) |
 | chopper | Read Filtering | 0.11.0 | - | [`env_qc`](#env-mapping) |
 | clair3 | Variant Calling | 2.0.0 | - | [`env_var`](#env-mapping) |
-| CONCOCT | Genome Binning | 1.1.0 | - | [`env_binning`](#env_binning) |
+| CONCOCT | Genome Binning | 1.1.0 | - | [`act_binning`](#env_binning) |
 | diamond | Sequence Alignment | 2.0.15 | - | [`env_ann`](#env-mapping) |
 | Dorado | Basecalling | 1.4.0 | - | NA |
-| DESeq2 | Differential Expression | 1.42.0 | - | [`env_deseq2`](#env-mapping) |
+| DESeq2 | Differential Expression | 1.42.0 | - | [`act_deseq2`](#env-mapping) |
 | dRep | Genome Dereplication | 3.4.5 | - | [`env_ann`](#env-mapping) |
 | EggNOG-mapper | Functional Annotation | 2.1.13 | YES | [`env_ann`](#env-mapping) |
 | fastANI | ANI Calculation | 1.34 | - | [`env_evo`](#env-mapping) |
@@ -55,6 +57,8 @@ Due to the dependency of software and compatibility, some softwares are installe
 | MASH | Distance Estimation | 2.3 | - | [`env_plasmid1`](#env-mapping) |
 | MAUVE | Genome Alignment | 2018 | - | [`env_plasmid1`](#env-mapping) |
 | MaxBin2 | Genome Binning | 2.2.7 | - | [`env_binning`](#env_binning) |
+| MaAsLin2 | Multivariable Association Analysis | 1.18.0 | - | [`act_deseq2`](#env_DESeq2) |
+| MaAsLin3 | Multivariable Association Analysis | 1.4.0 | - | [`act_DAA`](#env_DAA) |
 | Medaka | Sequence Correction | 2.2.0 | - | [`env_asm`](#env-mapping) |
 | metabat2 | Genome Binning | 2.15 | - | [`env_metawrap`](#env-mapping) |
 | metaquast | Assembly Assessment | 5.3.0 | - | [`env_ann`](#env-mapping) |
@@ -86,7 +90,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | samtools | File Manipulation | 1.23 | - | [`env_qc`](#env-mapping) |
 | samtools | File Manipulation | 1.23.1 | - | [`env_var`](#env-mapping) |
 | semibin2 | Genome Binning | 2.2.1 | - | [`env_ann`](#env-mapping) |
-| semibin2 | Genome Binning | 2.5.0 | - | [`env_binning`](#env_binning) |
+| semibin2 | Genome Binning | 2.5.0 | - | [`act_binning`](#env_binning) |
 | sniffles | Variant Calling | 2.7.3 | - | [`env_var`](#env-mapping) |
 | snippy | Variant Calling | 3.1 | - | [`env_evo`](#env-mapping) |
 | spades | Genome Assembly | 4.2.0 | - | [`env_asm`](#env-mapping) |
@@ -117,6 +121,7 @@ This table details the actual paths and owners for each environment alias.
 | `env_deseq2` | `/hdd1/shared_envs/lingyu/env_DESeq2` | 3.9.19 | @lyhe |
 | `env_binning` | `/hdd1/shared_envs/lingyu/env_binning` | 3.12.14 | @lyhe |
 | `env_MAG` | `/hdd1/shared_envs/lingyu/env_MAG` | 3.12.14 | @lyhe |
+| `env_DAA` | `/hdd1/shared_envs/lingyu/env_DAA` | 4.6.1 | @lyhe |
 
 ---
 
@@ -142,6 +147,7 @@ alias act_taxa='conda activate /hdd1/shared_envs/lingyu/env_taxonomy'
 alias act_deseq2='conda activate /hdd1/shared_envs/lingyu/env_DESeq2'
 alias act_binning='conda activate /hdd1/shared_envs/lingyu/env_binning'
 alias act_MAG='conda activate /hdd1/shared_envs/lingyu/env_MAG'
+alias act_DAA='conda activate /hdd1/shared_envs/lingyu/env_DAA'
 
 # 2. Database Path Variables
 export ANTISMASH_DB="/hdd1/shared_db/chelijia/antismash_db"
