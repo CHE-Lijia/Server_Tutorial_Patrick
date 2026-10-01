@@ -26,7 +26,8 @@ Due to the dependency of software and compatibility, some softwares are installe
 | bwa | Read Alignment | 0.7.18 | - | [`env_metawrap`](#env-mapping) |
 | cd-hit | Remove Repeated Genome | 4.6.1 | - | [`env_qc`](#env-mapping) |
 | checkm | Quality Assessment | 1.0.18 | YES | [`env_metawrap`](#env-mapping) |
-| checkM2 | Quality Assessment | 1.1.0 | YES | [`env_checkm2`](#env-mapping) |
+| checkM2 | Quality Assessment | 1.1.0 | YES | [`env_checkm2`](#env-checkm2) |
+| checkM2 | Quality Assessment | 1.1.0 | YES | [`env_MAG`](#env-MAG) |
 | checkv | Viral Quality | 1.0.3 | - | [`env_phage`](#env-mapping) |
 | chopper | Read Filtering | 0.11.0 | - | [`env_qc`](#env-mapping) |
 | clair3 | Variant Calling | 2.0.0 | - | [`env_var`](#env-mapping) |
