@@ -163,4 +163,5 @@ export KRAKEN2_DB="/hdd1/shared_db/sylvia/kraken2_PlusPFP_DB"
 export MOB_SUITE_DB="/hdd1/shared_db/chelijia/mob_suite_db"
 export VIRSORTER_DB="/hdd1/shared_db/chelijia/virsorter_db"
 export PLASMIDFINDER_DB="/hdd1/shared_db/chelijia/plasmidfinder_db"
+export RFAM_DB="/hdd1/shared_db/lingyu/rfam_db"
 
