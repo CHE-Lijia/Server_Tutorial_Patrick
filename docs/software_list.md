@@ -47,7 +47,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | hmmer | HMM Analysis | 3.4 | - | [`env_metawrap`](#env-mapping) |
 | hmmer | HMM Analysis | 3.3.2 | - | [`env_phage`](#env-mapping) |
 | ICEScreen | ICE Detection | 1.3.1 | - | [`env_evo`](#env-mapping) |
-| INFERNAL | RNA Analysis | 1.1.5 | - | [`env_ann`](#env-mapping) |
+| INFERNAL | RNA Analysis | 1.1.5 | YES | [`env_ann`](#env-mapping) |
 | iPHop | Host Prediction | 1.4.2 | YES | [`env_phage`](#env-mapping) |
 | iqtree | Phylogenetic Analysis | 3.0.1 | - | [`env_evo`](#env-mapping) |
 | ISEScan | IS Identification | 1.7.3 | - | [`env_evo`](#env-mapping) |
@@ -96,7 +96,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | snippy | Variant Calling | 3.1 | - | [`env_evo`](#env-mapping) |
 | spades | Genome Assembly | 4.2.0 | - | [`env_asm`](#env-mapping) |
 | Trimmomatic | Read Trimming | 0.4 | - | [`env_qc`](#env-mapping) |
-| tRNAscan-SE | tRNA Prediction | 2.0.12 | YES | [`env_ann`](#env-mapping) |
+| tRNAscan-SE | tRNA Prediction | 2.0.12 | - | [`env_ann`](#env-mapping) |
 | Unicycler | Genome Assembly | 0.5.1 | - | [`env_asm`](#env-mapping) |
 | Vegan | Ecological Analysis | - | - | [`env_ann`](#env-mapping) |
 | virsorter2 | Viral Detection | 2.2.4 | YES | [`env_phage`](#env-mapping) |
