@@ -96,7 +96,7 @@ Due to the dependency of software and compatibility, some softwares are installe
 | snippy | Variant Calling | 3.1 | - | [`env_evo`](#env-mapping) |
 | spades | Genome Assembly | 4.2.0 | - | [`env_asm`](#env-mapping) |
 | Trimmomatic | Read Trimming | 0.4 | - | [`env_qc`](#env-mapping) |
-| tRNAscan-SE | tRNA Prediction | 2.0.12 | - | [`env_ann`](#env-mapping) |
+| tRNAscan-SE | tRNA Prediction | 2.0.12 | YES | [`env_ann`](#env-mapping) |
 | Unicycler | Genome Assembly | 0.5.1 | - | [`env_asm`](#env-mapping) |
 | Vegan | Ecological Analysis | - | - | [`env_ann`](#env-mapping) |
 | virsorter2 | Viral Detection | 2.2.4 | YES | [`env_phage`](#env-mapping) |
